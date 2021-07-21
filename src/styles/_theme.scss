@@ -1,0 +1,20 @@
+:root {
+  //light
+  --primary: #2ae6e6;
+  --secondary: #536390;
+  --text-color: #2c2c2c;
+  --bg: #fff;
+  --bg-nav: #818cab;
+  --heading: #292922;
+  --progress-bar: #607d8b;
+}
+
+[data-theme="DARK"] {
+  --primary: #9a97f3;
+  --secondary: #d6d6d6;
+  --text-color: #ffffff;
+  --bg: darkgrey;
+  --bg-nav: #2c2c2c;
+  --heading: #818cab;
+  --progress-bar: #604779;
+}

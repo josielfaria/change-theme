@@ -1,0 +1,17 @@
+html {
+  background-color: var(--bg) !important;
+  background: var(--bg) !important;
+}
+
+a,
+body {
+  color: var(--text-color) !important;
+}
+
+a:hover {
+  filter: brightness(80%);
+}
+
+nav {
+  background: var(--bg-nav) !important;
+}
