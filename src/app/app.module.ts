@@ -8,6 +8,7 @@ import { ContentComponent } from './components/content/content.component';
 import { ButtonComponent } from './components/button/button.component';
 import { TitleComponent } from './components/title/title.component';
 import { FormExampleComponent } from './components/form-example/form-example.component';
+import { ProgressBarComponent } from './components/progress-bar/progress-bar.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { FormExampleComponent } from './components/form-example/form-example.com
     ContentComponent,
     ButtonComponent,
     TitleComponent,
-    FormExampleComponent
+    FormExampleComponent,
+    ProgressBarComponent
   ],
   imports: [
     BrowserModule

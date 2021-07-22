@@ -1,10 +1,15 @@
 <div class="content">
-  <div class="content-container">
+  <div class="content-container container">
     <app-title [title]="'Esse é um título'"></app-title>
 
-    <div class="buttons">
-      <app-button [name]="'Button com background'" [bkg]="false"></app-button>
-      <app-button [name]="'Button sem background'" [bkg]="true"></app-button>
+    <div class="d-flex flex-wrap">
+      <app-button class="" [name]="'Button com background'" [bkg]="false"></app-button>
+      <app-button class="" [name]="'Button sem background'" [bkg]="true"></app-button>
+    </div>
+
+    <div class="progress-bars">
+      <app-progress-bar [count]="70"></app-progress-bar>
+      <app-progress-bar [count]="54"></app-progress-bar>
     </div>
 
     <div class="formulario">forms</div>
