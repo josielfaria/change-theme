@@ -1,6 +1,6 @@
 .switch {
-  display: inline-block;
-  position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .switch_input {
@@ -17,23 +17,24 @@
 .switch_label {
   position: relative;
   display: inline-block;
-  width: 120px;
-  height: 60px;
+  width: 80px;
+  height: 35px;
   background-color: #2b2b2b;
-  border: 5px solid #5b5b5b;
+  border: 3px solid #5b5b5b;
   border-radius: 9999px;
   cursor: pointer;
   transition: all 0.4s cubic-bezier(0.46, 0.03, 0.52, 0.96);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 .switch_indicator {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) translateX(-72%);
+  transform: translate(-50%, -50%) translateX(-100%);
   display: block;
-  width: 40px;
-  height: 40px;
+  width: 21px;
+  height: 21px;
   background-color: #7b7b7b;
   border-radius: 9999px;
   box-shadow: 10px 0px 0 0 rgba(#000000, 0.2) inset;
@@ -48,19 +49,19 @@
   }
 
   &::before {
-    top: 7px;
-    left: 7px;
-    width: 9px;
-    height: 9px;
+    top: 9px;
+    left: 10px;
+    width: 8px;
+    height: 8px;
     background-color: #ffffff;
     opacity: 0.6;
   }
 
   &::after {
-    bottom: 8px;
-    right: 6px;
-    width: 14px;
-    height: 14px;
+    bottom: 10px;
+    right: 11px;
+    width: 6px;
+    height: 6px;
     background-color: #ffffff;
     opacity: 0.8;
   }
@@ -89,15 +90,15 @@
   }
 
   &::before {
-    top: -20px;
-    left: 10px;
+    top: -15px;
+    left: 11px;
     opacity: 1;
     animation: twinkle 0.6s infinite;
   }
 
   &::after {
-    top: -7px;
-    left: 30px;
+    top: -8px;
+    left: 25px;
     animation: twinkle 0.6s infinite -0.2s;
   }
 }
@@ -123,7 +124,7 @@
   .switch_indicator {
     background-color: #ecd21f;
     box-shadow: none;
-    transform: translate(-50%, -50%) translateX(72%);
+    transform: translate(-50%, -50%) translateX(100%);
 
     &::before,
     &::after {
@@ -133,27 +134,28 @@
 
   .switch_decoration {
     top: 50%;
+    left: 30%;
     transform: translate(0%, -50%);
     animation: cloud 8s linear infinite;
 
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
 
     &::before {
-      width: 10px;
-      height: 10px;
+      width: 8px;
+      height: 7px;
       top: auto;
       bottom: 0;
-      left: -8px;
+      left: -6px;
       animation: none;
     }
 
     &::after {
-      width: 15px;
-      height: 15px;
+      width: 10px;
+      height: 10px;
       top: auto;
+      left: 14px;
       bottom: 0;
-      left: 16px;
       animation: none;
     }
 

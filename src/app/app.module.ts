@@ -3,13 +3,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { SwitchThemeComponent } from './components/switch-theme/switch-theme.component';
+import { SerratedMountainsComponent } from './components/serrated-mountains/serrated-mountains.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    SwitchThemeComponent
+    SwitchThemeComponent,
+    SerratedMountainsComponent
   ],
   imports: [
     BrowserModule
