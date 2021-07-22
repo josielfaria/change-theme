@@ -1,0 +1,27 @@
+.btn-grad {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  font-weight: bold;
+  transition: 0.2s;
+  border: 3px solid transparent;
+  border-radius: 10px;
+  color: white;
+  display: block;
+  background-image: linear-gradient(to right, var(--btn-grad-1) 0%, var(--btn-grad-2) 51%, var(--btn-grad-1) 100%);
+  background-size: 200% auto;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  backface-visibility: hidden;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  text-decoration: none;
+  transform: perspective(1px) scale(1.05);
+}
+
+.bkg-none {
+  background: transparent;
+  border: 3px solid;
+  color: var(--btn-color);
+}
