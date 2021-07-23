@@ -1,5 +1,6 @@
 {
   "name": "change-theme",
+  "homepage": "change-theme",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
