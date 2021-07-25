@@ -28,3 +28,4 @@ jobs:
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: dist/
+          state-name: change-theme/ftp-deploy-sync-state.json
