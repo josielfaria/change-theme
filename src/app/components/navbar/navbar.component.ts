@@ -14,7 +14,7 @@ export class NavbarComponent implements OnInit {
     this.listNavbar = [
       { name: 'Home', idRef: 'home' },
       { name: 'Sobre', idRef: 'about' },
-      { name: 'Habilidades', idRef: 'skills' },
+      { name: 'Serviços', idRef: 'services' },
       { name: 'Projetos', idRef: 'projects' },
       { name: 'Contato', idRef: 'contact' },
     ];
