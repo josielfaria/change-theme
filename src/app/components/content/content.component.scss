@@ -4,9 +4,10 @@
   display: flex;
   align-items: center;
 
-  .content-container {
+  .card{
     z-index: 2;
-    position: relative;
+    background-color: var(--card-background);
+    // rgba(46, 46, 46, 95%)
   }
 }
 

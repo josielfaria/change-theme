@@ -4,12 +4,12 @@
   --secondary: none;
 
   // --title-color: #003669;
-  --title-color: #697451;
+  --title-color: #004f99;
   --text-color: #004f99;
 
-  --btn-grad-1: #a7bf75;
-  --btn-grad-2: darkgreen;
-  --btn-color: #697451;
+  --btn-grad-1: #6aa4db;
+  --btn-grad-2: #004f99;
+  --btn-color: #004f99;
 
   --bg-1: #58aeff;
   --bg-2: #8bc7ff;
@@ -17,22 +17,24 @@
   --bg-4: #ffe5c9;
   --bg-nav: #ffffff;
 
+  --card-background: #b9ddffab;
+
   --mountain-nav-1: darkgreen;
   --mountain-nav-2: #a7bf75;
 
-  --progress-bar: #a7bf75;
+  --progress-bar: #004f99;
 }
 
 [data-theme="DARK"] {
   --primary: none;
   --secondary: none;
 
-  --title-color: #b3abd4;
+  --title-color: #ffffff;
   --text-color: #ffffff;
 
-  --btn-grad-1: #8999c6;
-  --btn-grad-2: #161d30;
-  --btn-color: #b3abd4;
+  --btn-grad-1: grey;
+  --btn-grad-2: rgb(46, 46, 46);
+  --btn-color: #ffffff;
 
   --bg-1: #000;
   --bg-2: #212d49;
@@ -40,8 +42,10 @@
   --bg-4: #8999c6;
   --bg-nav: #2c2c2c;
 
+  --card-background: #2c2c2ce8;
+
   --mountain-nav-1: grey;
   --mountain-nav-2: #ffffff;
 
-  --progress-bar: #8999c6;
+  --progress-bar: grey;
 }
