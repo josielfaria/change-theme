@@ -4,15 +4,3 @@
   width: 100vw;
   background: linear-gradient(180deg, var(--bg-1) 24%, var(--bg-2) 64%, var(--bg-3) 84%, var(--bg-4) 100%);
 }
-
-.copyright {
-  color: var(--text-color);
-  width: 100%;
-  bottom: 50px;
-  text-align: center;
-  position: absolute;
-
-  a {
-    text-decoration: none;
-  }
-}

@@ -11,6 +11,7 @@ import { FormExampleComponent } from './components/form-example/form-example.com
 import { ProgressBarComponent } from './components/progress-bar/progress-bar.component';
 import { CloudsBackgroundComponent } from './components/clouds-background/clouds-background.component';
 import { StarryBackgroundComponent } from './components/starry-background/starry-background.component';
+import { CopyrightComponent } from './components/copyright/copyright.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { StarryBackgroundComponent } from './components/starry-background/starry
     FormExampleComponent,
     ProgressBarComponent,
     CloudsBackgroundComponent,
-    StarryBackgroundComponent
+    StarryBackgroundComponent,
+    CopyrightComponent
   ],
   imports: [
     BrowserModule
