@@ -1,9 +1,20 @@
 <div [attr.data-theme]="getTheme()" class="main">
   <app-navbar></app-navbar>
-  <app-content></app-content>
+  <app-content class="content"></app-content>
   <span class="copyright">
     © 2021 Copyright:
     <a href="https://josielfaria.com" target="_blank">Devjo Tecnologia</a>
   </span>
   <app-serrated-mountains></app-serrated-mountains>
 </div>
+
+
+<!-- Components para backgrounds -->
+
+<div *ngIf="getTheme() == ThemeEnum.DARK; else themeLight">
+  <app-starry-background></app-starry-background>
+</div>
+
+<ng-template #themeLight>
+  <app-clouds-background></app-clouds-background>
+</ng-template>

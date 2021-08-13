@@ -9,6 +9,8 @@ import { ButtonComponent } from './components/button/button.component';
 import { TitleComponent } from './components/title/title.component';
 import { FormExampleComponent } from './components/form-example/form-example.component';
 import { ProgressBarComponent } from './components/progress-bar/progress-bar.component';
+import { CloudsBackgroundComponent } from './components/clouds-background/clouds-background.component';
+import { StarryBackgroundComponent } from './components/starry-background/starry-background.component';
 
 
 @NgModule({
@@ -21,7 +23,9 @@ import { ProgressBarComponent } from './components/progress-bar/progress-bar.com
     ButtonComponent,
     TitleComponent,
     FormExampleComponent,
-    ProgressBarComponent
+    ProgressBarComponent,
+    CloudsBackgroundComponent,
+    StarryBackgroundComponent
   ],
   imports: [
     BrowserModule

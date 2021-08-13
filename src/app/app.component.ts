@@ -9,6 +9,8 @@ import { ThemeService } from './services/theme.service';
 })
 export class AppComponent {
 
+  ThemeEnum = ThemeEnum;
+
   constructor(private themeService: ThemeService) { }
 
   getTheme(): ThemeEnum {
